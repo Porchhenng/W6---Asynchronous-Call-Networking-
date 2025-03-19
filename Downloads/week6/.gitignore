@@ -1,0 +1,69 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+*.bak
+*.tmp
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IDE-related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Visual Studio Code settings (if not desired)
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio build artifacts
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Platform-specific builds
+android/
+ios/
+linux/
+macos/
+web/
+windows/
+
+# Test/coverage reports
+test/
+coverage/
+
+# Configuration files
+pubspec.lock
+analysis_options.yaml
+
+# Node.js dependencies (if using Node.js for any part of the project)
+node_modules/
+
+# Ignore specific files/folders that aren't needed in the project
+*.exe
+*.zip
+*.sql
+
+# Ignore sensitive information like env files
+*.env
